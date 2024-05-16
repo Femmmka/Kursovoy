@@ -133,6 +133,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Update_child.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Update_employees.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Update_groups.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Update_parent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pages\Autorization.xaml.cs">
@@ -140,6 +156,18 @@
     </Compile>
     <Compile Include="Pages\Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Update_child.xaml.cs">
+      <DependentUpon>Update_child.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Update_employees.xaml.cs">
+      <DependentUpon>Update_employees.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Update_groups.xaml.cs">
+      <DependentUpon>Update_groups.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Update_parent.xaml.cs">
+      <DependentUpon>Update_parent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
